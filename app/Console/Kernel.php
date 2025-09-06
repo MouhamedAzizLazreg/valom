@@ -20,6 +20,10 @@ class Kernel extends ConsoleKernel
 
   protected function schedule(Schedule $schedule): void
     {
+      $schedule->command('alerts:send-scheduled')
+             ->everyMinute()
+             ->withoutOverlapping()
+             ->runInBackground();
         $schedule->command('app:trigger-alerts')->everyFiveMinutes();
         $schedule->command('alerts:check-in')->everyFiveMinutes();
 
