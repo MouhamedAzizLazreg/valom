@@ -1,0 +1,72 @@
+{
+    "menu": [
+        {
+            "url": "organisation/dashboard",
+            "name": "Dashboard",
+            "icon": "menu-icon tf-icons bx bx-home-circle",
+            "slug": "dashboard-organisation"
+        },
+        {
+            "name": "Alerts",
+            "icon": "menu-icon tf-icons bx bx-alarm-snooze",
+            "slug": "organisation-alerts",
+            "submenu": [
+                {
+                    "url": "/organisation/alerts/",
+                    "name": "List",
+                    "slug": "organisation-alerts-list"
+                },
+                {
+                    "url": "/organisation/alerts/history",
+                    "name": "History",
+                    "slug": "organisation-history-alerts"
+                }
+            ]
+        },
+        {
+          "name": "Report",
+          "icon": "menu-icon tf-icons bx bx-envelope",
+          "slug": "organisation-reports",
+          "submenu": [
+              {
+                  "url": "organisation/reports/",
+                  "name": "List",
+                  "slug": "history-reports"
+              },
+              {
+                  "url": "/organisation/reports/history",
+                  "name": "History",
+                  "slug": "organisation-history-reports"
+              }
+          ]
+      },
+
+
+      {
+        "url": "/organisation/email/liste",
+        "name": "Email Setting",
+        "icon": "menu-icon tf-icons bx bx-cog",
+        "slug": "organisation-Repport"
+
+    },
+
+        {
+            "name": "Account Settings",
+            "icon": "menu-icon tf-icons bx bx bx-dock-top",
+            "slug": "pages-account-settings",
+            "submenu": [
+                {
+                    "url": "pages/account-settings-account",
+                    "name": "Account",
+                    "slug": "pages-account-settings-account"
+                },
+                {
+                    "url": "logout",
+                    "name": "Logout",
+                    "slug": "logout"
+                }
+            ]
+        }
+    ]
+}
+

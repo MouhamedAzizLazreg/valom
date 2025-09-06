@@ -1,0 +1,37 @@
+{
+  "menu": [
+      {
+          "url": "/admin/dashboard",
+          "name": "Dashboard",
+          "icon": "menu-icon tf-icons bx bx-home-circle",
+          "slug": "dashboard-admin"
+      },
+      {
+        "name": "Type d'alerts",
+        "icon": "menu-icon tf-icons bx bx-alarm-snooze",
+        "slug": "admin-alerts-types",
+        "url": "/admin/alerts/types"
+    },
+    {
+        "url": "/admin/alerts/history",
+        "name": "Alerts history",
+        "icon": "menu-icon tf-icons bx bx-history",
+        "slug": "admin-history-alerts"
+    },
+    {
+      "name": "Reports History",
+      "icon": "menu-icon tf-icons bx bx-history",
+      "slug": "history-reports",
+      "url": "/admin/reports/history"
+    },
+     
+             
+              {
+                  "url": "logout",
+                  "name": "Logout",
+                  "icon": "menu-icon tf-icons bx bx-login",
+                  "slug": "logout"
+              }
+          
+  ]
+}
